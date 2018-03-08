@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Assignment1_2018</string>
+    <string name="contact_app">Contact App</string>
+    <string name="new_contacts">New Contacts</string>
+    <string name="edit_contacts">Edit Contacts</string>
+    <string name="contact_info">Contact info</string>
+    <string name="enter_contact_name">enter contact name</string>
+    <string name="enter_tel_nr">enter tel nr</string>
+    <string name="enter_web_address">enter web address</string>
+    <string name="enter_location">enter location</string>
+    <string name="save_infor">Save Info</string>
+    <string name="go_back">Go Back</string>
+    <string name="search">Search</string>
+    <string name="edit_a_contact">Edit a Contact</string>
+    <string name="contact_detail">Contact Detail</string>
+    <string name="contact_detail_for">Contact detail for</string>
+    <string name="add_a_contact">Add a Contact</string>
+</resources>

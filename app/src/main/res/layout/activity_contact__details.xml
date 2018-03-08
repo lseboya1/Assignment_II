@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context="za.ac.cut.assignment_ii.Contact_Details">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_detail"
+        android:gravity="center"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/contact_name"
+        android:layout_width="match_parent"
+        android:hint="@string/enter_contact_name"
+        android:gravity="center"
+        android:layout_margin="@dimen/margin_top"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:onClick="Search"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="@dimen/margin_top"
+        android:layout_marginRight="@dimen/margin_top"/>
+
+
+    <TextView
+        android:id="@+id/contact_name_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_detail_for"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="Call"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/margin"
+        app:srcCompat="@drawable/call" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="Location"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/margin"
+        app:srcCompat="@drawable/location" />
+
+    <ImageView
+        android:id="@+id/webSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="WebSite"
+        android:visibility="gone"
+        app:srcCompat="@drawable/web" />
+
+
+</LinearLayout>
